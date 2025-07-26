@@ -65,7 +65,7 @@ while True:
     elif opt_int == 7:
         while True:
             while True:
-                try:
+                try: 
                     num_type = int(input("Enter the number type (1. Decimal/2. Binary/3. Hexadecimal): "))
                     break
                 except ValueError:
